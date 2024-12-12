@@ -1,0 +1,11 @@
+numpy
+pymongo
+pandas
+spacy
+mysql-connector-python
+
+
+
+
+
+

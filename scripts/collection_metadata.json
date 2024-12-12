@@ -1,0 +1,207 @@
+[
+    {
+        "collection_name": "maleWages",
+        "columns": [
+            {
+                "name": "nr",
+                "type": "int64",
+                "vals": [
+                    13,
+                    17,
+                    18
+                ]
+            },
+            {
+                "name": "year",
+                "type": "int64",
+                "vals": [
+                    1980,
+                    1981,
+                    1982
+                ]
+            },
+            {
+                "name": "school",
+                "type": "int64",
+                "vals": [
+                    14,
+                    13,
+                    12
+                ]
+            },
+            {
+                "name": "exper",
+                "type": "int64",
+                "vals": [
+                    1,
+                    2,
+                    3
+                ]
+            },
+            {
+                "name": "union",
+                "type": "object",
+                "vals": [
+                    "no",
+                    "yes"
+                ]
+            },
+            {
+                "name": "ethn",
+                "type": "object",
+                "vals": [
+                    "other",
+                    "black",
+                    "hisp"
+                ]
+            },
+            {
+                "name": "married",
+                "type": "object",
+                "vals": [
+                    "no",
+                    "yes"
+                ]
+            },
+            {
+                "name": "health",
+                "type": "object",
+                "vals": [
+                    "no",
+                    "yes"
+                ]
+            },
+            {
+                "name": "wage",
+                "type": "float64",
+                "vals": [
+                    1.1975402046,
+                    1.8530599951,
+                    1.3444616775
+                ]
+            },
+            {
+                "name": "industry",
+                "type": "object",
+                "vals": [
+                    "Business_and_Repair_Service",
+                    "Personal_Service",
+                    "Trade"
+                ]
+            },
+            {
+                "name": "occupation",
+                "type": "object",
+                "vals": [
+                    "Service_Workers",
+                    "Craftsmen, Foremen_and_kindred",
+                    "Managers, Officials_and_Proprietors"
+                ]
+            },
+            {
+                "name": "residence",
+                "type": "object",
+                "vals": [
+                    "north_east",
+                    NaN,
+                    "south"
+                ]
+            }
+        ]
+    },
+    {
+        "collection_name": "sportsData",
+        "columns": [
+            {
+                "name": "leagueID",
+                "type": "object",
+                "vals": [
+                    "L001",
+                    "L002",
+                    "L003"
+                ]
+            },
+            {
+                "name": "league",
+                "type": "object",
+                "vals": [
+                    "Premier League",
+                    "Serie A",
+                    "IPL"
+                ]
+            },
+            {
+                "name": "country",
+                "type": "object",
+                "vals": [
+                    "England",
+                    "India",
+                    "Spain"
+                ]
+            },
+            {
+                "name": "sport",
+                "type": "object",
+                "vals": [
+                    "Football",
+                    "American Football",
+                    "Basketball"
+                ]
+            },
+            {
+                "name": "revenue",
+                "type": "int64",
+                "vals": [
+                    5275330000,
+                    7088640000,
+                    7930520000
+                ]
+            },
+            {
+                "name": "salary",
+                "type": "int64",
+                "vals": [
+                    12080000,
+                    6730000,
+                    14360000
+                ]
+            },
+            {
+                "name": "TopTeam",
+                "type": "object",
+                "vals": [
+                    "Liverpool",
+                    "Inter Milan",
+                    "Chennai Super Kings"
+                ]
+            },
+            {
+                "name": "TeamTotal",
+                "type": "int64",
+                "vals": [
+                    16,
+                    13,
+                    22
+                ]
+            },
+            {
+                "name": "founded",
+                "type": "int64",
+                "vals": [
+                    1886,
+                    1977,
+                    1979
+                ]
+            },
+            {
+                "name": "viewership",
+                "type": "float64",
+                "vals": [
+                    485.9,
+                    135.01,
+                    157.49
+                ]
+            }
+        ]
+    }
+]

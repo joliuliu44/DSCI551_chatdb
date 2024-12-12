@@ -1,0 +1,17 @@
+{
+    "match": {
+        "match_val": 10,
+        "field": "experience"
+    },
+    "limit": null,
+    "group": null,
+    "project": null,
+    "sort": null,
+    "skip": null,
+    "conditional": null,
+    "count": null,
+    "math": null,
+    "func_order": [
+        "match"
+    ]
+}

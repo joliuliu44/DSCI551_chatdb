@@ -1,0 +1,12 @@
+{
+    "table": "maleWages",
+    "count": null,
+    "join": null,
+    "project": null,
+    "agg": null,
+    "group": null,
+    "order": null,
+    "where": {},
+    "having": null,
+    "limit": null
+}

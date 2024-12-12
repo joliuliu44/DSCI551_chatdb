@@ -1,0 +1,300 @@
+[
+    {
+        "table_name": "maleWages",
+        "columns": {
+            "nr": "BIGINT",
+            "year": "BIGINT",
+            "school": "BIGINT",
+            "exper": "BIGINT",
+            "union": "VARCHAR(255)",
+            "ethn": "VARCHAR(255)",
+            "married": "VARCHAR(255)",
+            "health": "VARCHAR(255)",
+            "wage": "FLOAT",
+            "industry": "VARCHAR(255)",
+            "occupation": "VARCHAR(255)",
+            "residence": "VARCHAR(255)"
+        },
+        "sample_values": {
+            "nr": [
+                13,
+                17,
+                18,
+                45,
+                110
+            ],
+            "year": [
+                1980,
+                1981,
+                1982,
+                1983,
+                1984
+            ],
+            "school": [
+                14,
+                13,
+                12,
+                10,
+                11
+            ],
+            "exper": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "union": [
+                "no",
+                "yes"
+            ],
+            "ethn": [
+                "other",
+                "black",
+                "hisp"
+            ],
+            "married": [
+                "no",
+                "yes"
+            ],
+            "health": [
+                "no",
+                "yes"
+            ],
+            "wage": [
+                1.1975402046,
+                1.8530599951,
+                1.3444616775,
+                1.4332133359,
+                1.5681250801
+            ],
+            "industry": [
+                "Business_and_Repair_Service",
+                "Personal_Service",
+                "Trade",
+                "Construction",
+                "Manufacturing"
+            ],
+            "occupation": [
+                "Service_Workers",
+                "Craftsmen, Foremen_and_kindred",
+                "Managers, Officials_and_Proprietors",
+                "Laborers_and_farmers",
+                "Clerical_and_kindred"
+            ],
+            "residence": [
+                "north_east",
+                NaN,
+                "south",
+                "nothern_central",
+                "rural_area"
+            ]
+        }
+    },
+    {
+        "table_name": "sportsData",
+        "columns": {
+            "leagueID": "VARCHAR(255)",
+            "league": "VARCHAR(255)",
+            "country": "VARCHAR(255)",
+            "sport": "VARCHAR(255)",
+            "revenue": "BIGINT",
+            "salary": "BIGINT",
+            "TopTeam": "VARCHAR(255)",
+            "TeamTotal": "BIGINT",
+            "founded": "BIGINT",
+            "viewership": "FLOAT"
+        },
+        "sample_values": {
+            "leagueID": [
+                "L001",
+                "L002",
+                "L003",
+                "L004",
+                "L005"
+            ],
+            "league": [
+                "Premier League",
+                "Serie A",
+                "IPL",
+                "La Liga",
+                "NFL"
+            ],
+            "country": [
+                "England",
+                "India",
+                "Spain",
+                "Italy",
+                "USA"
+            ],
+            "sport": [
+                "Football",
+                "American Football",
+                "Basketball",
+                "Cricket"
+            ],
+            "revenue": [
+                5275330000,
+                7088640000,
+                7930520000,
+                4972890000,
+                6265740000
+            ],
+            "salary": [
+                12080000,
+                6730000,
+                14360000,
+                13720000,
+                7450000
+            ],
+            "TopTeam": [
+                "Liverpool",
+                "Inter Milan",
+                "Chennai Super Kings",
+                "Atletico Madrid",
+                "Juventus"
+            ],
+            "TeamTotal": [
+                16,
+                13,
+                22,
+                28,
+                10
+            ],
+            "founded": [
+                1886,
+                1977,
+                1979,
+                1999,
+                1963
+            ],
+            "viewership": [
+                485.9,
+                135.01,
+                157.49,
+                245.71,
+                52.83
+            ]
+        }
+    },
+    {
+        "table_name": "gymData",
+        "columns": {
+            "Age": "BIGINT",
+            "Gender": "VARCHAR(255)",
+            "Weight": "FLOAT",
+            "Height": "FLOAT",
+            "Max_BPM": "BIGINT",
+            "Avg_BPM": "BIGINT",
+            "Resting_BPM": "BIGINT",
+            "Session_Duration": "FLOAT",
+            "Calories_Burned": "BIGINT",
+            "Workout_Type": "VARCHAR(255)",
+            "Fat_Percentage": "FLOAT",
+            "Water_Intake": "FLOAT",
+            "Workout_Frequency": "BIGINT",
+            "Experience_Level": "BIGINT",
+            "BMI": "FLOAT"
+        },
+        "sample_values": {
+            "Age": [
+                56,
+                46,
+                32,
+                25,
+                38
+            ],
+            "Gender": [
+                "Male",
+                "Female"
+            ],
+            "Weight": [
+                88.3,
+                74.9,
+                68.1,
+                53.2,
+                46.1
+            ],
+            "Height": [
+                1.71,
+                1.53,
+                1.66,
+                1.7,
+                1.79
+            ],
+            "Max_BPM": [
+                180,
+                179,
+                167,
+                190,
+                188
+            ],
+            "Avg_BPM": [
+                157,
+                151,
+                122,
+                164,
+                158
+            ],
+            "Resting_BPM": [
+                60,
+                66,
+                54,
+                56,
+                68
+            ],
+            "Session_Duration": [
+                1.69,
+                1.3,
+                1.11,
+                0.59,
+                0.64
+            ],
+            "Calories_Burned": [
+                1313,
+                883,
+                677,
+                532,
+                556
+            ],
+            "Workout_Type": [
+                "Yoga",
+                "HIIT",
+                "Cardio",
+                "Strength"
+            ],
+            "Fat_Percentage": [
+                12.6,
+                33.9,
+                33.4,
+                28.8,
+                29.2
+            ],
+            "Water_Intake": [
+                3.5,
+                2.1,
+                2.3,
+                2.8,
+                2.7
+            ],
+            "Workout_Frequency": [
+                4,
+                3,
+                5,
+                2
+            ],
+            "Experience_Level": [
+                3,
+                2,
+                1
+            ],
+            "BMI": [
+                30.2,
+                32.0,
+                24.71,
+                18.41,
+                14.39
+            ]
+        }
+    }
+]
